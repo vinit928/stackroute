@@ -1,0 +1,48 @@
+headertext{font-size: 15;font-family: Verdana;color: #ececec;}
+text1{font-size: 30;font-family: Verdana;color: #464646;}
+text4{font-size: 17;font-family: Verdana;color: #ececec;}
+text2{font-size: 20;font-family: Verdana;color: #464646;}
+text3{font-size: 15;font-family: Verdana;color: #636363;}
+text8{font-size: 40;font-style: normal;font-family: Verdana;color: #ececec;margin-left: 160px;}
+text9{font-size: 13;font-family: Verdana;color: #ececec;margin-left: 270px;}
+text10{font-size: 17;font-family: Verdana;color: #ececec;margin-left: 410px;}
+text5{font-size: 35;font-family: Verdana;color: #ececec;}
+maindivheadertext{font-size: 16;color: #ececec;font-family: Verdana;}
+maindivFPtext{margin-left: 20px;font-size: 13;color: #464646;font-family: Verdana;}
+footertext{font-size: 12;font-family: Verdana;color: #ececec;}
+p{text-align: justify;}
+div li{display: inline;}
+.header{height: 80px;background-color: #464646;}
+.header2{width: 40%;margin-top: 5;padding-left: 200px;}
+.logo {width: 62px;}
+.logo2 {width: 362px;}
+.headerlink{padding-top: 28;}
+.div1{height: 430px;}
+.logo2{width: 200px;}
+.trybtn{width: 150px;height: 50px;color: #464646;background-color: #464646;}
+.div1-1{margin-top: 100;margin-left: 500;}
+.div1-2{margin-top: 50;}
+.img1{width: 630px;}
+.div2{height: 430px;}
+.bgcolor{background-color: #ffffff}
+.div2-1{margin-top: 120px}
+.img3{width: 450px}
+.div3{background-color: #464646;height: 150px;}
+.div3-1{margin-top: 20;}
+.div4{height: 500px;}
+.div4-1{margin-top: 150px;}
+.div4-2{margin-top: 50px;}
+.div5{height: 150px;background-color: #464646;}
+.div6-1{float: left;padding-left: 140px;margin-right: 100px;}
+.div6-2{float: left;margin-right: 95px;}
+.img4{width: 630px;}
+.icon{margin-left: 70px;}
+.maindiv{width: 400px;height: 300px;margin-top: 70px;margin-left: 460px;background-color: #ececec;}
+.maindivheader{padding-left: 50px;padding-top: 20px;height: 40px;background-color: #464646;}
+.maindivbody{}
+  .username{margin-left: 30px;margin-top: 30px;width: 340px;height: 40px;background-color: #ececec;border-radius: 3px;font-size: 12px;padding-left: 20px;font-family: Verdana;border: 1px solid #464646;}
+  .maindivloginbtn{margin-left: 30px;margin-top: 20px;height: 40px;width: 100px;font-size: 13px;font-family: Verdana;color: #ececec;background-color: #464646;border-radius: 3px;}
+  #icon{right: 10;position: fixed;float: right;margin-top: 55px;}
+  #icon2{right: 10;position: fixed;float: right;margin-top: 100px;}
+  #icon3{right: 10;position: fixed;float: right;margin-top: 145px;}
+  #icon4{right: 10;position: fixed;float: right;margin-top: 190px;}

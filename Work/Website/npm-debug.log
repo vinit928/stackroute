@@ -1,0 +1,742 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'node-static' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node-static
+8 silly fetchNamedPackageData node-static
+9 silly mapToRegistry name node-static
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://172.23.238.253:4873/
+12 silly mapToRegistry uri http://172.23.238.253:4873/node-static
+13 verbose request uri http://172.23.238.253:4873/node-static
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 7:34:50 AM
+16 verbose request id 00070fd50e002e59
+17 verbose etag "4a09c4859a4f9afc0cb88057d665096a"
+18 http request GET http://172.23.238.253:4873/node-static
+19 http 304 http://172.23.238.253:4873/node-static
+20 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+20 verbose headers   etag: '"4a09c4859a4f9afc0cb88057d665096a"',
+20 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+20 verbose headers   date: 'Tue, 08 Mar 2016 07:34:52 GMT',
+20 verbose headers   connection: 'keep-alive' }
+21 silly get cb [ 304,
+21 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+21 silly get     etag: '"4a09c4859a4f9afc0cb88057d665096a"',
+21 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+21 silly get     date: 'Tue, 08 Mar 2016 07:34:52 GMT',
+21 silly get     connection: 'keep-alive' } ]
+22 verbose etag http://172.23.238.253:4873/node-static from cache
+23 verbose get saving node-static to /home/vagrant/.npm/172.23.238.253_4873/node-static/.cache.json
+24 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule node-static@0.7.7 checking installable status
+38 silly cache add args [ 'node-static', null ]
+39 verbose cache add spec node-static
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'node-static',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'node-static',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed node-static@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for node-static
+43 info addNameTag [ 'node-static', 'latest' ]
+44 silly mapToRegistry name node-static
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry http://172.23.238.253:4873/
+47 silly mapToRegistry uri http://172.23.238.253:4873/node-static
+48 verbose addNameTag registry:http://172.23.238.253:4873/node-static not in flight; fetching
+49 verbose get http://172.23.238.253:4873/node-static not expired, no request
+50 silly addNameTag next cb for node-static with tag latest
+51 silly addNamed node-static@0.7.7
+52 verbose addNamed "0.7.7" is a plain semver version for node-static
+53 silly cache afterAdd node-static@0.7.7
+54 verbose afterAdd /home/vagrant/.npm/node-static/0.7.7/package/package.json not in flight; writing
+55 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+56 verbose afterAdd /home/vagrant/.npm/node-static/0.7.7/package/package.json written
+57 silly fetchNamedPackageData optimist
+58 silly mapToRegistry name optimist
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry http://172.23.238.253:4873/
+61 silly mapToRegistry uri http://172.23.238.253:4873/optimist
+62 silly fetchNamedPackageData colors
+63 silly mapToRegistry name colors
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry http://172.23.238.253:4873/
+66 silly mapToRegistry uri http://172.23.238.253:4873/colors
+67 silly fetchNamedPackageData mime
+68 silly mapToRegistry name mime
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry http://172.23.238.253:4873/
+71 silly mapToRegistry uri http://172.23.238.253:4873/mime
+72 verbose request uri http://172.23.238.253:4873/optimist
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 7:34:53 AM
+75 verbose etag "a82a89cec4eb3a202802c809bb6514ce"
+76 http request GET http://172.23.238.253:4873/optimist
+77 verbose request uri http://172.23.238.253:4873/colors
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 7:34:53 AM
+80 verbose etag "eea42d7251483dc576ed88e3ccbf7570"
+81 http request GET http://172.23.238.253:4873/colors
+82 verbose request uri http://172.23.238.253:4873/mime
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 7:34:53 AM
+85 verbose etag "7db7c2e211eb1158e8b618666bbdc2ea"
+86 http request GET http://172.23.238.253:4873/mime
+87 http 304 http://172.23.238.253:4873/mime
+88 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+88 verbose headers   etag: '"7db7c2e211eb1158e8b618666bbdc2ea"',
+88 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+88 verbose headers   date: 'Tue, 08 Mar 2016 07:34:54 GMT',
+88 verbose headers   connection: 'keep-alive' }
+89 silly get cb [ 304,
+89 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+89 silly get     etag: '"7db7c2e211eb1158e8b618666bbdc2ea"',
+89 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+89 silly get     date: 'Tue, 08 Mar 2016 07:34:54 GMT',
+89 silly get     connection: 'keep-alive' } ]
+90 verbose etag http://172.23.238.253:4873/mime from cache
+91 verbose get saving mime to /home/vagrant/.npm/172.23.238.253_4873/mime/.cache.json
+92 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+93 silly resolveWithNewModule mime@1.3.4 checking installable status
+94 silly cache add args [ 'mime@>=1.2.9', null ]
+95 verbose cache add spec mime@>=1.2.9
+96 silly cache add parsed spec Result {
+96 silly cache add   raw: 'mime@>=1.2.9',
+96 silly cache add   scope: null,
+96 silly cache add   name: 'mime',
+96 silly cache add   rawSpec: '>=1.2.9',
+96 silly cache add   spec: '>=1.2.9',
+96 silly cache add   type: 'range' }
+97 silly addNamed mime@>=1.2.9
+98 verbose addNamed ">=1.2.9" is a valid semver range for mime
+99 silly addNameRange { name: 'mime', range: '>=1.2.9', hasData: false }
+100 silly mapToRegistry name mime
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry http://172.23.238.253:4873/
+103 silly mapToRegistry uri http://172.23.238.253:4873/mime
+104 verbose addNameRange registry:http://172.23.238.253:4873/mime not in flight; fetching
+105 verbose get http://172.23.238.253:4873/mime not expired, no request
+106 silly addNameRange number 2 { name: 'mime', range: '>=1.2.9', hasData: true }
+107 silly addNameRange versions [ 'mime',
+107 silly addNameRange   [ '1.0.0',
+107 silly addNameRange     '1.1.0',
+107 silly addNameRange     '1.2.1',
+107 silly addNameRange     '1.2.2',
+107 silly addNameRange     '1.2.3',
+107 silly addNameRange     '1.2.4',
+107 silly addNameRange     '1.2.5',
+107 silly addNameRange     '1.2.6',
+107 silly addNameRange     '1.2.7',
+107 silly addNameRange     '1.2.8',
+107 silly addNameRange     '1.2.9',
+107 silly addNameRange     '1.2.10',
+107 silly addNameRange     '1.2.11',
+107 silly addNameRange     '1.3.0',
+107 silly addNameRange     '1.3.2',
+107 silly addNameRange     '1.3.3',
+107 silly addNameRange     '1.3.4' ] ]
+108 silly addNamed mime@1.3.4
+109 verbose addNamed "1.3.4" is a plain semver version for mime
+110 silly cache afterAdd mime@1.3.4
+111 verbose afterAdd /home/vagrant/.npm/mime/1.3.4/package/package.json not in flight; writing
+112 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+113 verbose afterAdd /home/vagrant/.npm/mime/1.3.4/package/package.json written
+114 http 200 http://172.23.238.253:4873/colors
+115 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+115 verbose headers   'content-type': 'application/json; charset=utf-8',
+115 verbose headers   etag: '"fa3f8c7b6a07193170235723132c8806"',
+115 verbose headers   vary: 'Accept-Encoding',
+115 verbose headers   'content-encoding': 'gzip',
+115 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+115 verbose headers   date: 'Tue, 08 Mar 2016 07:34:54 GMT',
+115 verbose headers   connection: 'keep-alive',
+115 verbose headers   'transfer-encoding': 'chunked' }
+116 silly get cb [ 200,
+116 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+116 silly get     'content-type': 'application/json; charset=utf-8',
+116 silly get     etag: '"fa3f8c7b6a07193170235723132c8806"',
+116 silly get     vary: 'Accept-Encoding',
+116 silly get     'content-encoding': 'gzip',
+116 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+116 silly get     date: 'Tue, 08 Mar 2016 07:34:54 GMT',
+116 silly get     connection: 'keep-alive',
+116 silly get     'transfer-encoding': 'chunked' } ]
+117 verbose get saving colors to /home/vagrant/.npm/172.23.238.253_4873/colors/.cache.json
+118 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+119 silly resolveWithNewModule colors@1.1.2 checking installable status
+120 silly cache add args [ 'colors@>=0.6.0', null ]
+121 verbose cache add spec colors@>=0.6.0
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'colors@>=0.6.0',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'colors',
+122 silly cache add   rawSpec: '>=0.6.0',
+122 silly cache add   spec: '>=0.6.0',
+122 silly cache add   type: 'range' }
+123 silly addNamed colors@>=0.6.0
+124 verbose addNamed ">=0.6.0" is a valid semver range for colors
+125 silly addNameRange { name: 'colors', range: '>=0.6.0', hasData: false }
+126 silly mapToRegistry name colors
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry http://172.23.238.253:4873/
+129 silly mapToRegistry uri http://172.23.238.253:4873/colors
+130 verbose addNameRange registry:http://172.23.238.253:4873/colors not in flight; fetching
+131 verbose get http://172.23.238.253:4873/colors not expired, no request
+132 silly addNameRange number 2 { name: 'colors', range: '>=0.6.0', hasData: true }
+133 silly addNameRange versions [ 'colors',
+133 silly addNameRange   [ '0.3.0',
+133 silly addNameRange     '0.5.0',
+133 silly addNameRange     '0.5.1',
+133 silly addNameRange     '0.6.0',
+133 silly addNameRange     '0.6.0-1',
+133 silly addNameRange     '0.6.1',
+133 silly addNameRange     '0.6.2',
+133 silly addNameRange     '1.0.0',
+133 silly addNameRange     '1.0.1',
+133 silly addNameRange     '1.0.2',
+133 silly addNameRange     '1.0.3',
+133 silly addNameRange     '1.1.0',
+133 silly addNameRange     '1.1.1',
+133 silly addNameRange     '1.1.2' ] ]
+134 silly addNamed colors@1.1.2
+135 verbose addNamed "1.1.2" is a plain semver version for colors
+136 silly cache afterAdd colors@1.1.2
+137 verbose afterAdd /home/vagrant/.npm/colors/1.1.2/package/package.json not in flight; writing
+138 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+139 verbose afterAdd /home/vagrant/.npm/colors/1.1.2/package/package.json written
+140 http 304 http://172.23.238.253:4873/optimist
+141 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+141 verbose headers   etag: '"a82a89cec4eb3a202802c809bb6514ce"',
+141 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+141 verbose headers   date: 'Tue, 08 Mar 2016 07:34:54 GMT',
+141 verbose headers   connection: 'keep-alive' }
+142 silly get cb [ 304,
+142 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+142 silly get     etag: '"a82a89cec4eb3a202802c809bb6514ce"',
+142 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+142 silly get     date: 'Tue, 08 Mar 2016 07:34:54 GMT',
+142 silly get     connection: 'keep-alive' } ]
+143 verbose etag http://172.23.238.253:4873/optimist from cache
+144 verbose get saving optimist to /home/vagrant/.npm/172.23.238.253_4873/optimist/.cache.json
+145 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+146 silly resolveWithNewModule optimist@0.6.1 checking installable status
+147 silly cache add args [ 'optimist@>=0.3.4', null ]
+148 verbose cache add spec optimist@>=0.3.4
+149 silly cache add parsed spec Result {
+149 silly cache add   raw: 'optimist@>=0.3.4',
+149 silly cache add   scope: null,
+149 silly cache add   name: 'optimist',
+149 silly cache add   rawSpec: '>=0.3.4',
+149 silly cache add   spec: '>=0.3.4',
+149 silly cache add   type: 'range' }
+150 silly addNamed optimist@>=0.3.4
+151 verbose addNamed ">=0.3.4" is a valid semver range for optimist
+152 silly addNameRange { name: 'optimist', range: '>=0.3.4', hasData: false }
+153 silly mapToRegistry name optimist
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry http://172.23.238.253:4873/
+156 silly mapToRegistry uri http://172.23.238.253:4873/optimist
+157 verbose addNameRange registry:http://172.23.238.253:4873/optimist not in flight; fetching
+158 verbose get http://172.23.238.253:4873/optimist not expired, no request
+159 silly addNameRange number 2 { name: 'optimist', range: '>=0.3.4', hasData: true }
+160 silly addNameRange versions [ 'optimist',
+160 silly addNameRange   [ '0.0.1',
+160 silly addNameRange     '0.0.2',
+160 silly addNameRange     '0.0.4',
+160 silly addNameRange     '0.0.5',
+160 silly addNameRange     '0.0.6',
+160 silly addNameRange     '0.0.7',
+160 silly addNameRange     '0.1.0',
+160 silly addNameRange     '0.1.1',
+160 silly addNameRange     '0.1.2',
+160 silly addNameRange     '0.1.3',
+160 silly addNameRange     '0.1.4',
+160 silly addNameRange     '0.1.5',
+160 silly addNameRange     '0.1.6',
+160 silly addNameRange     '0.1.7',
+160 silly addNameRange     '0.1.8',
+160 silly addNameRange     '0.1.9',
+160 silly addNameRange     '0.0.3',
+160 silly addNameRange     '0.2.0',
+160 silly addNameRange     '0.2.1',
+160 silly addNameRange     '0.2.2',
+160 silly addNameRange     '0.2.3',
+160 silly addNameRange     '0.2.4',
+160 silly addNameRange     '0.2.5',
+160 silly addNameRange     '0.2.6',
+160 silly addNameRange     '0.2.7',
+160 silly addNameRange     '0.2.8',
+160 silly addNameRange     '0.3.0',
+160 silly addNameRange     '0.3.1',
+160 silly addNameRange     '0.3.3',
+160 silly addNameRange     '0.3.4',
+160 silly addNameRange     '0.3.5',
+160 silly addNameRange     '0.3.6',
+160 silly addNameRange     '0.3.7',
+160 silly addNameRange     '0.4.0',
+160 silly addNameRange     '0.5.0',
+160 silly addNameRange     '0.5.1',
+160 silly addNameRange     '0.5.2',
+160 silly addNameRange     '0.6.0',
+160 silly addNameRange     '0.6.1' ] ]
+161 silly addNamed optimist@0.6.1
+162 verbose addNamed "0.6.1" is a plain semver version for optimist
+163 silly cache afterAdd optimist@0.6.1
+164 verbose afterAdd /home/vagrant/.npm/optimist/0.6.1/package/package.json not in flight; writing
+165 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+166 verbose afterAdd /home/vagrant/.npm/optimist/0.6.1/package/package.json written
+167 silly fetchNamedPackageData wordwrap
+168 silly mapToRegistry name wordwrap
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry http://172.23.238.253:4873/
+171 silly mapToRegistry uri http://172.23.238.253:4873/wordwrap
+172 silly fetchNamedPackageData minimist
+173 silly mapToRegistry name minimist
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry http://172.23.238.253:4873/
+176 silly mapToRegistry uri http://172.23.238.253:4873/minimist
+177 verbose request uri http://172.23.238.253:4873/wordwrap
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 7:34:55 AM
+180 verbose etag "5427e6c426f7f0b3729451ccf3aeab09"
+181 http request GET http://172.23.238.253:4873/wordwrap
+182 verbose request uri http://172.23.238.253:4873/minimist
+183 verbose request no auth needed
+184 info attempt registry request try #1 at 7:34:55 AM
+185 verbose etag "c98e218d6571844c9dd2eb3685440dc2"
+186 http request GET http://172.23.238.253:4873/minimist
+187 http 304 http://172.23.238.253:4873/minimist
+188 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+188 verbose headers   etag: '"c98e218d6571844c9dd2eb3685440dc2"',
+188 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+188 verbose headers   date: 'Tue, 08 Mar 2016 07:34:56 GMT',
+188 verbose headers   connection: 'keep-alive' }
+189 silly get cb [ 304,
+189 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+189 silly get     etag: '"c98e218d6571844c9dd2eb3685440dc2"',
+189 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+189 silly get     date: 'Tue, 08 Mar 2016 07:34:56 GMT',
+189 silly get     connection: 'keep-alive' } ]
+190 verbose etag http://172.23.238.253:4873/minimist from cache
+191 verbose get saving minimist to /home/vagrant/.npm/172.23.238.253_4873/minimist/.cache.json
+192 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+193 http 304 http://172.23.238.253:4873/wordwrap
+194 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+194 verbose headers   etag: '"5427e6c426f7f0b3729451ccf3aeab09"',
+194 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+194 verbose headers   date: 'Tue, 08 Mar 2016 07:34:56 GMT',
+194 verbose headers   connection: 'keep-alive' }
+195 silly get cb [ 304,
+195 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+195 silly get     etag: '"5427e6c426f7f0b3729451ccf3aeab09"',
+195 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+195 silly get     date: 'Tue, 08 Mar 2016 07:34:56 GMT',
+195 silly get     connection: 'keep-alive' } ]
+196 verbose etag http://172.23.238.253:4873/wordwrap from cache
+197 verbose get saving wordwrap to /home/vagrant/.npm/172.23.238.253_4873/wordwrap/.cache.json
+198 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+199 silly resolveWithNewModule minimist@0.0.10 checking installable status
+200 silly cache add args [ 'minimist@~0.0.1', null ]
+201 verbose cache add spec minimist@~0.0.1
+202 silly cache add parsed spec Result {
+202 silly cache add   raw: 'minimist@~0.0.1',
+202 silly cache add   scope: null,
+202 silly cache add   name: 'minimist',
+202 silly cache add   rawSpec: '~0.0.1',
+202 silly cache add   spec: '>=0.0.1 <0.1.0',
+202 silly cache add   type: 'range' }
+203 silly addNamed minimist@>=0.0.1 <0.1.0
+204 verbose addNamed ">=0.0.1 <0.1.0" is a valid semver range for minimist
+205 silly addNameRange { name: 'minimist', range: '>=0.0.1 <0.1.0', hasData: false }
+206 silly mapToRegistry name minimist
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry http://172.23.238.253:4873/
+209 silly mapToRegistry uri http://172.23.238.253:4873/minimist
+210 verbose addNameRange registry:http://172.23.238.253:4873/minimist not in flight; fetching
+211 silly resolveWithNewModule wordwrap@0.0.3 checking installable status
+212 silly cache add args [ 'wordwrap@~0.0.2', null ]
+213 verbose cache add spec wordwrap@~0.0.2
+214 silly cache add parsed spec Result {
+214 silly cache add   raw: 'wordwrap@~0.0.2',
+214 silly cache add   scope: null,
+214 silly cache add   name: 'wordwrap',
+214 silly cache add   rawSpec: '~0.0.2',
+214 silly cache add   spec: '>=0.0.2 <0.1.0',
+214 silly cache add   type: 'range' }
+215 silly addNamed wordwrap@>=0.0.2 <0.1.0
+216 verbose addNamed ">=0.0.2 <0.1.0" is a valid semver range for wordwrap
+217 silly addNameRange { name: 'wordwrap', range: '>=0.0.2 <0.1.0', hasData: false }
+218 silly mapToRegistry name wordwrap
+219 silly mapToRegistry using default registry
+220 silly mapToRegistry registry http://172.23.238.253:4873/
+221 silly mapToRegistry uri http://172.23.238.253:4873/wordwrap
+222 verbose addNameRange registry:http://172.23.238.253:4873/wordwrap not in flight; fetching
+223 verbose get http://172.23.238.253:4873/minimist not expired, no request
+224 silly addNameRange number 2 { name: 'minimist', range: '>=0.0.1 <0.1.0', hasData: true }
+225 silly addNameRange versions [ 'minimist',
+225 silly addNameRange   [ '0.0.0',
+225 silly addNameRange     '0.0.1',
+225 silly addNameRange     '0.0.2',
+225 silly addNameRange     '0.0.3',
+225 silly addNameRange     '0.0.4',
+225 silly addNameRange     '0.0.5',
+225 silly addNameRange     '0.0.6',
+225 silly addNameRange     '0.0.7',
+225 silly addNameRange     '0.0.8',
+225 silly addNameRange     '0.0.9',
+225 silly addNameRange     '0.0.10',
+225 silly addNameRange     '0.1.0',
+225 silly addNameRange     '0.2.0',
+225 silly addNameRange     '1.0.0',
+225 silly addNameRange     '1.1.0',
+225 silly addNameRange     '1.1.1',
+225 silly addNameRange     '1.1.2',
+225 silly addNameRange     '1.1.3',
+225 silly addNameRange     '1.2.0' ] ]
+226 silly addNamed minimist@0.0.10
+227 verbose addNamed "0.0.10" is a plain semver version for minimist
+228 verbose get http://172.23.238.253:4873/wordwrap not expired, no request
+229 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2 <0.1.0', hasData: true }
+230 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2', '0.0.3', '1.0.0' ] ]
+231 silly addNamed wordwrap@0.0.3
+232 verbose addNamed "0.0.3" is a plain semver version for wordwrap
+233 silly cache afterAdd minimist@0.0.10
+234 verbose afterAdd /home/vagrant/.npm/minimist/0.0.10/package/package.json not in flight; writing
+235 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+236 verbose afterAdd /home/vagrant/.npm/minimist/0.0.10/package/package.json written
+237 silly cache afterAdd wordwrap@0.0.3
+238 verbose afterAdd /home/vagrant/.npm/wordwrap/0.0.3/package/package.json not in flight; writing
+239 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+240 verbose afterAdd /home/vagrant/.npm/wordwrap/0.0.3/package/package.json written
+241 silly loadAllDepsIntoIdealTree Finishing
+242 silly idealTree:prePrune Website
+242 silly idealTree:prePrune ├── colors@1.1.2
+242 silly idealTree:prePrune ├── mime@1.3.4
+242 silly idealTree:prePrune ├── minimist@0.0.10
+242 silly idealTree:prePrune ├── node-static@0.7.7
+242 silly idealTree:prePrune ├── optimist@0.6.1
+242 silly idealTree:prePrune └── wordwrap@0.0.3
+243 silly loadIdealTree Finishing
+244 silly currentTree Website
+245 silly idealTree Website
+245 silly idealTree ├── colors@1.1.2
+245 silly idealTree ├── mime@1.3.4
+245 silly idealTree ├── minimist@0.0.10
+245 silly idealTree ├── node-static@0.7.7
+245 silly idealTree ├── optimist@0.6.1
+245 silly idealTree └── wordwrap@0.0.3
+246 silly generateActionsToTake Starting
+247 silly install generateActionsToTake
+248 silly generateActionsToTake Finishing
+249 silly diffTrees action count 6
+250 silly diffTrees add colors@1.1.2
+251 silly diffTrees add mime@1.3.4
+252 silly diffTrees add minimist@0.0.10
+253 silly diffTrees add wordwrap@0.0.3
+254 silly diffTrees add optimist@0.6.1
+255 silly diffTrees add node-static@0.7.7
+256 silly decomposeActions action count 48
+257 silly decomposeActions fetch colors@1.1.2
+258 silly decomposeActions extract colors@1.1.2
+259 silly decomposeActions test colors@1.1.2
+260 silly decomposeActions preinstall colors@1.1.2
+261 silly decomposeActions build colors@1.1.2
+262 silly decomposeActions install colors@1.1.2
+263 silly decomposeActions postinstall colors@1.1.2
+264 silly decomposeActions finalize colors@1.1.2
+265 silly decomposeActions fetch mime@1.3.4
+266 silly decomposeActions extract mime@1.3.4
+267 silly decomposeActions test mime@1.3.4
+268 silly decomposeActions preinstall mime@1.3.4
+269 silly decomposeActions build mime@1.3.4
+270 silly decomposeActions install mime@1.3.4
+271 silly decomposeActions postinstall mime@1.3.4
+272 silly decomposeActions finalize mime@1.3.4
+273 silly decomposeActions fetch minimist@0.0.10
+274 silly decomposeActions extract minimist@0.0.10
+275 silly decomposeActions test minimist@0.0.10
+276 silly decomposeActions preinstall minimist@0.0.10
+277 silly decomposeActions build minimist@0.0.10
+278 silly decomposeActions install minimist@0.0.10
+279 silly decomposeActions postinstall minimist@0.0.10
+280 silly decomposeActions finalize minimist@0.0.10
+281 silly decomposeActions fetch wordwrap@0.0.3
+282 silly decomposeActions extract wordwrap@0.0.3
+283 silly decomposeActions test wordwrap@0.0.3
+284 silly decomposeActions preinstall wordwrap@0.0.3
+285 silly decomposeActions build wordwrap@0.0.3
+286 silly decomposeActions install wordwrap@0.0.3
+287 silly decomposeActions postinstall wordwrap@0.0.3
+288 silly decomposeActions finalize wordwrap@0.0.3
+289 silly decomposeActions fetch optimist@0.6.1
+290 silly decomposeActions extract optimist@0.6.1
+291 silly decomposeActions test optimist@0.6.1
+292 silly decomposeActions preinstall optimist@0.6.1
+293 silly decomposeActions build optimist@0.6.1
+294 silly decomposeActions install optimist@0.6.1
+295 silly decomposeActions postinstall optimist@0.6.1
+296 silly decomposeActions finalize optimist@0.6.1
+297 silly decomposeActions fetch node-static@0.7.7
+298 silly decomposeActions extract node-static@0.7.7
+299 silly decomposeActions test node-static@0.7.7
+300 silly decomposeActions preinstall node-static@0.7.7
+301 silly decomposeActions build node-static@0.7.7
+302 silly decomposeActions install node-static@0.7.7
+303 silly decomposeActions postinstall node-static@0.7.7
+304 silly decomposeActions finalize node-static@0.7.7
+305 silly executeActions Starting
+306 silly install executeActions
+307 silly doSerial global-install 0
+308 silly doParallel fetch 6
+309 verbose correctMkdir /home/vagrant/.npm/_locks correctMkdir not in flight; initializing
+310 verbose lock using /home/vagrant/.npm/_locks/staging-ff8e00469b590b45.lock for /vagrant/Work/HTML/Website/node_modules/.staging
+311 silly doParallel extract 6
+312 silly extract colors@1.1.2
+313 silly extract mime@1.3.4
+314 silly extract minimist@0.0.10
+315 silly extract wordwrap@0.0.3
+316 silly extract optimist@0.6.1
+317 silly extract node-static@0.7.7
+318 verbose unbuild node_modules/.staging/colors-9b2310e7
+319 verbose unbuild node_modules/.staging/minimist-c5319b83
+320 verbose unbuild node_modules/.staging/wordwrap-bd5ccdc4
+321 verbose unbuild node_modules/.staging/optimist-f9314191
+322 verbose unbuild node_modules/.staging/mime-a2f271e2
+323 verbose unbuild node_modules/.staging/node-static-b2ecf5d8
+324 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/colors-9b2310e7 is being purged from base /vagrant/Work/HTML/Website
+325 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/colors-9b2310e7
+326 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/minimist-c5319b83 is being purged from base /vagrant/Work/HTML/Website
+327 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/minimist-c5319b83
+328 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/wordwrap-bd5ccdc4 is being purged from base /vagrant/Work/HTML/Website
+329 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/wordwrap-bd5ccdc4
+330 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/optimist-f9314191 is being purged from base /vagrant/Work/HTML/Website
+331 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/optimist-f9314191
+332 verbose tar unpack /home/vagrant/.npm/colors/1.1.2/package.tgz
+333 verbose tar unpacking to /vagrant/Work/HTML/Website/node_modules/.staging/colors-9b2310e7
+334 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/colors-9b2310e7 is being purged
+335 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/colors-9b2310e7
+336 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/mime-a2f271e2 is being purged from base /vagrant/Work/HTML/Website
+337 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/mime-a2f271e2
+338 verbose tar unpack /home/vagrant/.npm/minimist/0.0.10/package.tgz
+339 verbose tar unpacking to /vagrant/Work/HTML/Website/node_modules/.staging/minimist-c5319b83
+340 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/minimist-c5319b83 is being purged
+341 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/minimist-c5319b83
+342 verbose tar unpack /home/vagrant/.npm/wordwrap/0.0.3/package.tgz
+343 verbose tar unpacking to /vagrant/Work/HTML/Website/node_modules/.staging/wordwrap-bd5ccdc4
+344 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/wordwrap-bd5ccdc4 is being purged
+345 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/wordwrap-bd5ccdc4
+346 verbose tar unpack /home/vagrant/.npm/optimist/0.6.1/package.tgz
+347 verbose tar unpacking to /vagrant/Work/HTML/Website/node_modules/.staging/optimist-f9314191
+348 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/optimist-f9314191 is being purged
+349 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/optimist-f9314191
+350 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/node-static-b2ecf5d8 is being purged from base /vagrant/Work/HTML/Website
+351 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/node-static-b2ecf5d8
+352 silly gunzTarPerm modes [ '755', '644' ]
+353 verbose tar unpack /home/vagrant/.npm/mime/1.3.4/package.tgz
+354 verbose tar unpacking to /vagrant/Work/HTML/Website/node_modules/.staging/mime-a2f271e2
+355 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/mime-a2f271e2 is being purged
+356 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/mime-a2f271e2
+357 silly gunzTarPerm modes [ '755', '644' ]
+358 silly gunzTarPerm modes [ '755', '644' ]
+359 silly gunzTarPerm modes [ '755', '644' ]
+360 verbose tar unpack /home/vagrant/.npm/node-static/0.7.7/package.tgz
+361 verbose tar unpacking to /vagrant/Work/HTML/Website/node_modules/.staging/node-static-b2ecf5d8
+362 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/node-static-b2ecf5d8 is being purged
+363 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/node-static-b2ecf5d8
+364 silly gunzTarPerm modes [ '755', '644' ]
+365 silly gunzTarPerm modes [ '755', '644' ]
+366 silly gunzTarPerm extractEntry package.json
+367 silly gunzTarPerm extractEntry package.json
+368 silly gunzTarPerm extractEntry package.json
+369 silly gunzTarPerm extractEntry package.json
+370 silly gunzTarPerm extractEntry package.json
+371 silly gunzTarPerm extractEntry package.json
+372 silly gunzTarPerm extractEntry LICENSE
+373 silly gunzTarPerm extractEntry safe.js
+374 silly gunzTarPerm extractEntry LICENSE
+375 silly gunzTarPerm extractEntry index.js
+376 silly gunzTarPerm extractEntry LICENSE
+377 silly gunzTarPerm extractEntry index.js
+378 silly gunzTarPerm extractEntry LICENSE
+379 silly gunzTarPerm extractEntry index.js
+380 silly gunzTarPerm extractEntry .npmignore
+381 silly gunzTarPerm extractEntry README.md
+382 silly gunzTarPerm extractEntry .npmignore
+383 silly gunzTarPerm extractEntry README.md
+384 silly gunzTarPerm extractEntry ReadMe.md
+385 silly gunzTarPerm extractEntry examples/normal-usage.js
+386 silly gunzTarPerm extractEntry .travis.yml
+387 silly gunzTarPerm extractEntry example/parse.js
+388 silly gunzTarPerm extractEntry README.markdown
+389 silly gunzTarPerm extractEntry example/center.js
+390 silly gunzTarPerm extractEntry .travis.yml
+391 silly gunzTarPerm extractEntry example/bool.js
+392 silly gunzTarPerm extractEntry LICENSE
+393 silly gunzTarPerm extractEntry cli.js
+394 silly gunzTarPerm extractEntry LICENSE
+395 silly gunzTarPerm extractEntry benchmark/node-static-0.3.0.txt
+396 silly gunzTarPerm extractEntry examples/safe-string.js
+397 silly gunzTarPerm extractEntry lib/colors.js
+398 silly gunzTarPerm extractEntry readme.markdown
+399 silly gunzTarPerm extractEntry test/bool.js
+400 silly gunzTarPerm extractEntry example/meat.js
+401 silly gunzTarPerm extractEntry test/break.js
+402 silly gunzTarPerm extractEntry example/default_singles.js
+403 silly gunzTarPerm extractEntry example/divide.js
+404 silly gunzTarPerm extractEntry example/line_count.js
+405 silly gunzTarPerm extractEntry example/default_hash.js
+406 silly gunzTarPerm extractEntry example/line_count_wrap.js
+407 silly gunzTarPerm extractEntry example/nonopt.js
+408 silly gunzTarPerm extractEntry example/reflect.js
+409 silly gunzTarPerm extractEntry example/short.js
+410 silly gunzTarPerm extractEntry example/string.js
+411 silly gunzTarPerm extractEntry example/boolean_single.js
+412 silly gunzTarPerm extractEntry example/usage-options.js
+413 silly gunzTarPerm extractEntry example/boolean_double.js
+414 silly gunzTarPerm extractEntry example/xup.js
+415 silly gunzTarPerm extractEntry example/line_count_options.js
+416 silly gunzTarPerm extractEntry readme.markdown
+417 silly gunzTarPerm extractEntry test/_.js
+418 silly gunzTarPerm extractEntry test/dash.js
+419 silly gunzTarPerm extractEntry test/parse.js
+420 silly gunzTarPerm extractEntry test/parse_modified.js
+421 silly gunzTarPerm extractEntry test/short.js
+422 silly gunzTarPerm extractEntry test/usage.js
+423 silly gunzTarPerm extractEntry test/whitespace.js
+424 silly gunzTarPerm extractEntry test/_/argv.js
+425 silly gunzTarPerm extractEntry test/_/bin.js
+426 silly gunzTarPerm extractEntry mime.js
+427 silly gunzTarPerm extractEntry build/build.js
+428 silly gunzTarPerm extractEntry bin/cli.js
+429 silly gunzTarPerm extractEntry examples/file-server.js
+430 silly gunzTarPerm extractEntry lib/node-static.js
+431 silly gunzTarPerm extractEntry lib/node-static/util.js
+432 silly gunzTarPerm extractEntry test/fixtures/empty.css
+433 silly gunzTarPerm extractEntry test/fixtures/hello.txt
+434 silly gunzTarPerm extractEntry test/fixtures/index.html
+435 silly gunzTarPerm extractEntry test/fixtures/there/index.html
+436 silly gunzTarPerm extractEntry test/integration/node-static-test.js
+437 silly gunzTarPerm extractEntry lib/extendStringPrototype.js
+438 silly gunzTarPerm extractEntry test/dash.js
+439 silly gunzTarPerm extractEntry test/wrap.js
+440 silly gunzTarPerm extractEntry test/idleness.txt
+441 silly gunzTarPerm extractEntry build/test.js
+442 silly gunzTarPerm extractEntry types.json
+443 silly gunzTarPerm extractEntry lib/index.js
+444 silly gunzTarPerm extractEntry lib/styles.js
+445 silly gunzTarPerm extractEntry test/default_bool.js
+446 silly gunzTarPerm extractEntry test/dotted.js
+447 silly gunzTarPerm extractEntry test/long.js
+448 silly gunzTarPerm extractEntry test/num.js
+449 silly gunzTarPerm extractEntry lib/custom/trap.js
+450 silly gunzTarPerm extractEntry lib/custom/zalgo.js
+451 silly gunzTarPerm extractEntry test/parse.js
+452 silly gunzTarPerm extractEntry test/parse_modified.js
+453 silly gunzTarPerm extractEntry lib/maps/america.js
+454 silly gunzTarPerm extractEntry lib/maps/rainbow.js
+455 silly gunzTarPerm extractEntry test/short.js
+456 silly gunzTarPerm extractEntry test/whitespace.js
+457 silly gunzTarPerm extractEntry lib/maps/random.js
+458 silly gunzTarPerm extractEntry lib/maps/zebra.js
+459 silly gunzTarPerm extractEntry lib/system/supports-colors.js
+460 silly gunzTarPerm extractEntry themes/generic-logging.js
+461 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/wordwrap-bd5ccdc4/node_modules is being purged
+462 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/wordwrap-bd5ccdc4/node_modules
+463 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/mime-a2f271e2/node_modules is being purged
+464 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/mime-a2f271e2/node_modules
+465 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/minimist-c5319b83/node_modules is being purged
+466 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/minimist-c5319b83/node_modules
+467 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/node-static-b2ecf5d8/node_modules is being purged
+468 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/node-static-b2ecf5d8/node_modules
+469 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/colors-9b2310e7/node_modules is being purged
+470 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/colors-9b2310e7/node_modules
+471 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.staging/optimist-f9314191/node_modules is being purged
+472 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.staging/optimist-f9314191/node_modules
+473 silly doParallel preinstall 6
+474 silly preinstall colors@1.1.2 /vagrant/Work/HTML/Website/node_modules/.staging/colors-9b2310e7
+475 info lifecycle colors@1.1.2~preinstall: colors@1.1.2
+476 silly preinstall mime@1.3.4 /vagrant/Work/HTML/Website/node_modules/.staging/mime-a2f271e2
+477 info lifecycle mime@1.3.4~preinstall: mime@1.3.4
+478 silly preinstall minimist@0.0.10 /vagrant/Work/HTML/Website/node_modules/.staging/minimist-c5319b83
+479 info lifecycle minimist@0.0.10~preinstall: minimist@0.0.10
+480 silly preinstall wordwrap@0.0.3 /vagrant/Work/HTML/Website/node_modules/.staging/wordwrap-bd5ccdc4
+481 info lifecycle wordwrap@0.0.3~preinstall: wordwrap@0.0.3
+482 silly preinstall optimist@0.6.1 /vagrant/Work/HTML/Website/node_modules/.staging/optimist-f9314191
+483 info lifecycle optimist@0.6.1~preinstall: optimist@0.6.1
+484 silly preinstall node-static@0.7.7 /vagrant/Work/HTML/Website/node_modules/.staging/node-static-b2ecf5d8
+485 info lifecycle node-static@0.7.7~preinstall: node-static@0.7.7
+486 silly lifecycle colors@1.1.2~preinstall: no script for preinstall, continuing
+487 silly lifecycle mime@1.3.4~preinstall: no script for preinstall, continuing
+488 silly lifecycle minimist@0.0.10~preinstall: no script for preinstall, continuing
+489 silly lifecycle wordwrap@0.0.3~preinstall: no script for preinstall, continuing
+490 silly lifecycle optimist@0.6.1~preinstall: no script for preinstall, continuing
+491 silly lifecycle node-static@0.7.7~preinstall: no script for preinstall, continuing
+492 silly doReverseSerial remove 0
+493 silly doSerial move 0
+494 silly doSerial finalize 6
+495 silly finalize /vagrant/Work/HTML/Website/node_modules/colors
+496 silly finalize /vagrant/Work/HTML/Website/node_modules/mime
+497 silly finalize /vagrant/Work/HTML/Website/node_modules/minimist
+498 silly finalize /vagrant/Work/HTML/Website/node_modules/wordwrap
+499 silly finalize /vagrant/Work/HTML/Website/node_modules/optimist
+500 silly finalize /vagrant/Work/HTML/Website/node_modules/node-static
+501 silly doSerial build 6
+502 silly build colors@1.1.2
+503 info linkStuff colors@1.1.2
+504 silly linkStuff colors@1.1.2 has /vagrant/Work/HTML/Website/node_modules as its parent node_modules
+505 verbose linkBins colors@1.1.2
+506 verbose linkMans colors@1.1.2
+507 silly build mime@1.3.4
+508 info linkStuff mime@1.3.4
+509 silly linkStuff mime@1.3.4 has /vagrant/Work/HTML/Website/node_modules as its parent node_modules
+510 verbose linkBins mime@1.3.4
+511 verbose link bins [ { mime: 'cli.js' },
+511 verbose link bins   '/vagrant/Work/HTML/Website/node_modules/.bin',
+511 verbose link bins   false ]
+512 verbose linkMans mime@1.3.4
+513 silly gentlyRm /vagrant/Work/HTML/Website/node_modules/.bin/mime is being purged
+514 verbose gentlyRm don't care about contents; nuking /vagrant/Work/HTML/Website/node_modules/.bin/mime
+515 verbose unlock done using /home/vagrant/.npm/_locks/staging-ff8e00469b590b45.lock for /vagrant/Work/HTML/Website/node_modules/.staging
+516 silly rollbackFailedOptional Starting
+517 silly rollbackFailedOptional Finishing
+518 silly runTopLevelLifecycles Starting
+519 silly runTopLevelLifecycles Finishing
+520 silly install printInstalled
+521 warn enoent ENOENT: no such file or directory, open '/vagrant/Work/HTML/Website/package.json'
+522 warn Website No description
+523 warn Website No repository field.
+524 warn Website No README data
+525 warn Website No license field.
+526 verbose stack Error: EPROTO: protocol error, symlink '../mime/cli.js' -> '/vagrant/Work/HTML/Website/node_modules/.bin/mime'
+526 verbose stack     at Error (native)
+527 verbose cwd /vagrant/Work/HTML/Website
+528 error Linux 4.2.0-22-generic
+529 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "node-static"
+530 error node v5.7.1
+531 error npm  v3.6.0
+532 error path ../mime/cli.js
+533 error code EPROTO
+534 error errno -71
+535 error syscall symlink
+536 error EPROTO: protocol error, symlink '../mime/cli.js' -> '/vagrant/Work/HTML/Website/node_modules/.bin/mime'
+537 error If you need help, you may report this error at:
+537 error     <https://github.com/npm/npm/issues>
+538 verbose exit [ -71, true ]

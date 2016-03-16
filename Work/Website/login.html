@@ -1,0 +1,51 @@
+<html lang='en'>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <title>Login</title>
+</head>
+<body>
+  <header id="headerDiv">
+    <table>
+      <tr>
+        <td id="logo" width="300px" ><img src="asset/LOGO.png" width="120px"></td>
+        <td  width="1000px" align="right">
+          <a href="index.html" id="menu"><font color="white" id="menufont">Home</font></a>
+          &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
+          <a href="deshboard.html" id="menu"><font color="white" id="menufont">Deshboard</font></a>
+          &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
+          <a href="newuser.html" id="menu"><font color="white" id="menufont">New User</font></a>
+        </font>
+      </td>
+    </tr>
+  </table>
+</header>
+
+<div class="loginbox">
+  <center id="t1">login</center><br>
+  <form action="#" method="post">
+    <table cellspacing="10">
+      <tr>
+        <td><t2>Username:</t2> </td>
+        <td><input type="text" id="username" placeholder="Username" required=""></td>
+      </tr>
+      <tr>
+        <td><t2>Password:</t2></td>
+        <td><input type="password" id="password" placeholder="Password" required=""></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" id="submit" value="Login">&nbsp  &nbsp
+          <input type="button" id="submit" value="New User" onclick="window.location='newuser.html';"></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <t3><a href="" id="menu">Forget Password?<a></t3>
+            </td>
+          </tr>
+        </table>
+      </form>
+
+
+    </div>
+  </body>
+  </html>

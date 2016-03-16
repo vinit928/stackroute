@@ -1,0 +1,71 @@
+.loginbox{
+  width: 350px;
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 450px;
+  box-shadow: 5px 3px 10px #000000;
+  background-color: #ffffff;
+  padding: 20px;
+
+}
+#t1{
+  font-size: 22;
+  font-family: verdana;
+}
+t2{
+  font-size: 15;
+  font-family: verdana;
+}
+t3{
+
+  font-size: 12;
+  font-family: verdana;
+}
+#menu{
+  text-decoration:none;
+}
+
+
+#menuName{
+  font-family: verdana;
+  color: white;
+  font-size: 200%;
+}
+
+#menufont{
+  font-family:verdana;
+  font-size:100%;
+  text-shadow: 2px 2px 4px #888888;
+}
+#headerDiv{
+  position:fixed;
+  box-shadow: 5px 5px 10px #ffffff;
+  margin-top: -100px;
+  margin-bottom: -8px;
+  margin-right: -8px;
+  margin-left: -8px;
+  shape-margin: 0px;
+  padding: 20px;
+  background-color: 0099cc;
+  height: 30px;
+  width: 1500px;
+}
+#username{
+  font-family: verdana;
+  width: 200px;
+  height: 40px;
+  background-position: 20px -53px;
+  border-radius: 10px;
+}
+#password{
+  width: 200px;
+  height: 40px;
+  background-position: 20px -53px;
+  border-radius: 10px;
+}
+#submit{
+  width: 100px;
+  height: 40px;
+  background-position: 20px -53px;
+  border-radius: 10px;
+}

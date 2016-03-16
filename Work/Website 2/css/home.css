@@ -1,0 +1,183 @@
+#grid{
+  display: -ms-grid;
+  -ms-grid-columns: 30% 70%;
+  -ms-grid-rows: 490px;
+}
+#a{
+-ms-grid-columns: 1;-ms-grid-rows: 1;
+
+}
+#b{
+-ms-grid-columns: 2;-ms-grid-rows: 1;
+}
+.header{
+  width: 100%;
+  height: 50px;
+  background-color: #464646;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  position: fixed;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.header1-1{
+  float: left;
+  padding: 5;
+  margin-left: 200px;
+  width: 40%;
+  height: 100%;
+}
+.header1-2{
+  margin-top: 13px;
+
+  width: auto;
+  height: auto;
+}
+.logo{
+  width: 38px;
+}
+.logo2{
+  width: 200px;
+}
+.img3{
+  width: 600px
+}
+
+.div1{
+  width: 100%;
+  height: 490px;
+}
+.div1-1{
+  margin-top: 70px;
+  margin-left: 100px;
+  width: 30%;
+  float: left;
+  padding: 40;
+
+}
+.div1-2{
+  width: 60%;
+
+}
+.div2{
+  margin-left: -8px;
+  margin-right: 8px;
+  width: 100%;
+  height: 300px;
+
+}
+.div2-1{
+  float: left;
+  padding-top: 50;
+  padding-left: 200;;
+  height: 100%;
+  width: 40%;
+  float: left;
+}
+.part2{
+  padding-top: 50;
+}
+.div3{
+  margin-left: -8px;
+  margin-right: 8px;
+  width: 100%;
+  height: 330px;
+}
+.div3-1{
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding-left: 50;
+}
+.div3.2{
+  padding: 100px;
+  width: 50%;
+  height: 100%;
+}
+
+.div4{
+  margin-left: -8px;
+  width: 100%;
+  height: 150px;
+  background-color: #464646;
+
+}
+.div5{
+  margin-left: -8px;
+  width: 100%;
+  height: 600px;
+
+}
+.div5-1{
+  float: left;
+  padding: 70px;
+  width: 45%;
+  height: 100%;
+}
+.part3{
+  padding: 70px;
+}
+
+.div6{
+  position: absolute;
+  margin-left: -8px;
+  width: 100%;
+  height: 200px;
+  background-color: #464646;
+}
+.div6-1{
+  float: left;
+  padding-left: 100px;
+  width: 50%;
+  height: 200px;
+
+}
+.trybtn{
+  width: 150px;
+  height: 50px;
+  color: #464646;
+  background-color: #464646;
+}
+.div6-2{
+  width: 50%;
+  height: 200px;
+}
+hr{
+  width: 80%;
+
+}
+headertext{
+
+  font-size: 15;
+  font-family: Verdana;
+  color: #ececec;
+}
+text1{
+  font-size: 30;
+  font-family: Verdana;
+  color: #464646;
+}
+text2{
+  font-size: 20;
+  font-family: Verdana;
+  color: #464646;
+}
+text3{
+  font-size: 15;
+  font-family: Verdana;
+  color: #636363;
+}
+text4{
+  font-size: 15;
+  font-family: Verdana;
+  color: #ececec;
+}
+text5{
+  font-size: 35;
+  font-family: Verdana;
+  color: #ececec;
+}

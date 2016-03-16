@@ -1,0 +1,111 @@
+#menu{
+  text-decoration:none
+}
+
+
+#menuName{
+  font-family: verdana;
+  color: white;
+  font-size: 200%;
+}
+
+#menufont{
+  font-family:verdana;
+  font-size:100%;
+  text-shadow: 2px 2px 4px #888888;
+}
+#headerDiv{
+
+  box-shadow: 5px 5px 10px #ffffff;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-right: -8px;
+  margin-left: -8px;
+  shape-margin: 0px;
+  padding: 20px;
+  background-color: 0099cc;
+  height: 30px;
+  width: 1500px;
+}
+
+#username{
+  font-family: verdana;
+  width: 200px;
+  height: 40px;
+  background-position: 20px -53px;
+  border-radius: 10px;
+}
+#submit{
+  width: 100px;
+  height: 40px;
+  background-position: 20px -53px;
+  border-radius: 10px;
+}
+
+#sidebutton{
+  color: #ffffff;
+  font-size: 17;
+  font-family: verdana;
+  width: 200px;
+  height: 60px;
+  background-color: #0099cc;
+  border: 1.5px solid #ffffff;
+}
+
+t2{
+  font-size: 15;
+  font-family: verdana;
+}
+t3{
+  font-size: 12;
+  font-family: verdana;
+}
+
+
+#div1{
+  width: 1120px;
+  height: 350px;
+}
+
+#div2{
+  width: 1120px;
+  height: 550px;
+  background: #8cc739 ;
+}
+
+#div3{
+  width: 1120px;
+  height: 250px;
+}
+
+#div4{
+  width: 1120px;
+  height: 150px;
+  background: #8cc739
+}
+
+ul {
+  float: right;
+  font-family: verdana;
+  font-size: 15;
+  list-style-type: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ffffff;
+  position: fixed;
+   overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 0 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0099cc;
+  color: white;
+}
