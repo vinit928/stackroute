@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36e5a203-c263-45f0-9667-70c92b13f36f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../BootStrap/js/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../BootStrap/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SVG_1/js/d3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BootStrap/.idea/BootStrap.iml" afterPath="$PROJECT_DIR$/../BootStrap/.idea/BootStrap.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BootStrap/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BootStrap/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BootStrap/index.html" afterPath="$PROJECT_DIR$/../BootStrap/index.html" />
     </list>
