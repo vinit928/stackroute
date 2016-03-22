@@ -1,41 +1,44 @@
 var Converter = require("csvtojson").Converter;
 var fs = require("fs");
-fs.appendFile('json/India2011.json', '[');
-jsonCon();
-console.log("1");
+
+var async = require("async");
+
+
+
 function jsonCon() {
     var converter = new Converter({});
     fs.createReadStream("asset/India2011.csv").pipe(converter);
 
-    converter.on("record_parsed", function (jsonArray) {
-            var jsonObj;
-            for (var prop in jsonArray) {
-                if ((jsonArray["Age-group"] == "All ages") && (jsonArray["Total/ Rural/ Urban"] == "Total")) {
-                    jsonObj = {
-                        "Area Name": jsonArray["Area Name"],
-                        "Total Persons": jsonArray["Total Persons"],
-                        "Total Males": jsonArray["Total Males"],
-                        "Total Females": jsonArray["Total Females"],
-                        "Illiterate - Persons": jsonArray["Illiterate - Persons"],
-                        "Illiterate - Males": jsonArray["Illiterate - Males"],
-                        "Illiterate - Females": jsonArray["Illiterate - Females"],
-                        "Literate - Persons": jsonArray["Literate - Persons"],
-                        "Literate - Males": jsonArray["Literate - Males"],
-                        "Literate - Females": jsonArray["Literate - Females"],
+    converter.on("end_parsed", function (jsonArray) {
+            var jsonObj = new Array();
+            var j = 0;
+            for (var i in jsonArray) {
+                var json = jsonArray[i];
+                if ((json["Age-group"] == "All ages") && (json["Total/ Rural/ Urban"] == "Total")) {
+                    jsonObj[j] = {
+                        "Area Name": json["Area Name"],
+                        "Total Persons": json["Total Persons"],
+                        "Total Males": json["Total Males"],
+                        "Total Females": json["Total Females"],
+                        "Illiterate - Persons": json["Illiterate - Persons"],
+                        "Illiterate - Males": json["Illiterate - Males"],
+                        "Illiterate - Females": json["Illiterate - Females"],
+                        "Literate - Persons": json["Literate - Persons"],
+                        "Literate - Males": json["Literate - Males"],
+                        "Literate - Females": json["Literate - Females"],
                     }
-                    jsonRead(jsonObj);
-                    //fs.appendFile('json/India2011.json', JSON.stringify(jsonObj) + ",");
-                    break;
+                    j++;
+                    continue;
                 }
             }
+            fs.appendFile('json/India2011.json', JSON.stringify(jsonObj));
+
+
         }
     );
-
-
 }
 
-function jsonRead(jsonObj) {
-
-    console.log(jsonObj);
-
+function jsonShow() {
+    var India2011 = JSON.parse(fs.readFileSync("json/India2011.json"));
+    console.log(India2011[12]["Total Persons"]);
 }
