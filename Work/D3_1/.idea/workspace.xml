@@ -2,22 +2,748 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3ee1b4-0b57-421e-ac03-b5500d2fa6ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/.idea/libraries/Asse_2_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/parser.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Asse_2/bin/www" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Asse_2/public/stylesheets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Asse_2/routes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Asse_2/routes/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Asse_2/text" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Asse_2/views/error.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Asse_2/views/index.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Asse_2/views/layout.jade" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Files/Assignment 2/India2011.csv" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/India2011.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain (2).zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/activation-1.0.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/antlr-2.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/asm-1.5.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/asm-attrs-1.5.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/cglib-2.1_3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/commons-beanutils-1.7.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/commons-collections-2.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/commons-digester-1.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/commons-email-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/commons-fileupload-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/commons-io-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/commons-lang-2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/dumbster-1.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/ehcache-1.2.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/hibernate-3.2.6.ga.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/hibernate-annotations-3.3.1.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/hibernate-commons-annotations-3.0.0.ga.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/hibernate-entitymanager-3.3.2.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/hibernate-search-3.0.0.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/hibernate-validator-4.0.2.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/icu4j-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/javassist-3.4.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/jaxb-api-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/jaxb-impl-2.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/jaxen-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/jdom-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/jta-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/log4j-1.2.14.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/lucene-core-2.3.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/lucene-highlighter-2.0.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/mail-1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/mysql-connector-java-5.0.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/ojdbc14.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/persistence-api-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/quartz-1.5.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/slf4j-api-1.5.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/slf4j-log4j12-1.5.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/spring-aop-3.0.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/spring-asm-3.0.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/spring-beans-3.0.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/spring-context-3.0.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/spring-core-3.0.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/spring-expression-3.0.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/spring-jdbc-3.0.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/spring-orm-3.0.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/spring-tx-3.0.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/spring-web-3.0.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/spring-webmvc-3.0.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/stax-api-1.0-2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/validation-api-1.0.0.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/xalan-2.6.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/xercesImpl-2.6.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/xml-apis-1.3.02.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/xmlParserAPIs-2.6.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/lib/xom-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/Cast_vote.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/Check.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/DAO/EVS_TBL_Admin_Assign_Voter_DAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/DAO/EVS_TBL_Credential_Registation_DAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_Admin_Assign_Voter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_Admin_Assign_Voter_2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_Admin_Change_Password.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_Candidate.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_Credential_Login.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_Credential_Registation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_Election.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_Result.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_User_Profile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_Vote_Voter_ID_Check.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_Voter_AssignID.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_Voter_Details.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/EVS_TBL_party.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/SpringMVC.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/beans/EVS_TBL_Application_Class.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/beans/EVS_TBL_Candidate_Class.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/beans/EVS_TBL_Credential_Class.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/beans/EVS_TBL_EO_Class.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/beans/EVS_TBL_Election_CLass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/beans/EVS_TBL_Result_Class.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/beans/EVS_TBL_User_Profile_Class.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/beans/EVS_TBL_Voter_Details_Class.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/com/wipro/rll/beans/EVS_TBL_party_Class.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/.settings/.jsdtscope" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/.settings/org.eclipse.wst.common.component" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/.settings/org.eclipse.wst.common.project.facet.core.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/.settings/org.eclipse.wst.jsdt.ui.superType.container" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/.settings/org.eclipse.wst.jsdt.ui.superType.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/About_US.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/Add_View_Candidate.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/Add_View_Election.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/Add_View_Party.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/Cast_vote.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/DemoProfile.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/EVS_TBL_Admin_Assign_Voter.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/EVS_TBL_Result.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/EVS_TBL_User_Profile.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/EVS_TBL_Vote_Voter_ID_Check.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/EVS_TBL_Voter_Details.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/EVS_TBL_Voter_Details_Conform.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/Logout.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/Main_Admin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/jsp/EVS_TABLE_Election.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/jsp/EVS_TBL_Admin_Change_Password.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/jsp/EVS_TBL_Candidate.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/jsp/EVS_TBL_Candidate_Show.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/jsp/EVS_TBL_Credentials_Login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/jsp/EVS_TBL_Credentials_Registation.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/jsp/EVS_TBL_Election_Show.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/jsp/EVS_TBL_party.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/jsp/EVS_TBL_party_Show.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/jsp/newindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/spring-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/WebContent/index2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/build/classes/hibernate.cfg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/Cast_vote.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/Check.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/DAO/EVS_TBL_Admin_Assign_Voter_DAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/DAO/EVS_TBL_Credential_Registation_DAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_Admin_Assign_Voter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_Admin_Assign_Voter_2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_Admin_Change_Password.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_Candidate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_Credential_Login.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_Credential_Registation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_Election.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_User_Profile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_Vote_Voter_ID_Check.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_Voter_AssignID.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_Voter_Details.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/EVS_TBL_party.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/SpringMVC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/beans/EVS_TBL_Application_Class.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/beans/EVS_TBL_Candidate_Class.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/beans/EVS_TBL_Credential_Class.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/beans/EVS_TBL_EO_Class.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/beans/EVS_TBL_Election_CLass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/beans/EVS_TBL_Result_Class.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/beans/EVS_TBL_User_Profile_Class.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/beans/EVS_TBL_Voter_Details_Class.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/com/wipro/rll/beans/EVS_TBL_party_Class.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Files/Assignment 2/RLLmain/src/hibernate.cfg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/DemoHTML.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/json/India2011.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/nodeD3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/arguments-extended.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/arguments-extended.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/atlassian-ide-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/test/arguments-extended.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/arguments-extended/test/browserling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.idea/array-extended.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.idea/libraries/array_extended_node_modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/array-extended.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/array-extended.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/test/array-extended.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/array-extended/test/browserling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/.spmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/bin/meteor" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/bin/start" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/bin/uglify" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/d3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/d3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/ascending.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/bisect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/descending.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/deviation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/entries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/extent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/keys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/max.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/mean.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/median.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/merge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/nest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/pairs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/permute.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/quantile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/range.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/shuffle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/sum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/transpose.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/values.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/variance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/arrays/zip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/behavior/behavior.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/behavior/drag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/behavior/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/behavior/zoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/color/color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/color/hcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/color/hsl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/color/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/color/lab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/color/rgb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/color/xyz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/compat/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/compat/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/compat/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/compat/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/document.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/functor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/identity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/noop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/ns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/rebind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/subclass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/target.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/true.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/vendor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/core/zero.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/d3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/dsv/csv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/dsv/dsv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/dsv/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/dsv/tsv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/end.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/event/dispatch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/event/drag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/event/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/event/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/event/mouse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/event/timer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/event/touch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/event/touches.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/format/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/format/format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/format/formatPrefix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/format/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/format/precision.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/format/requote.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/format/round.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/albers-usa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/albers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/area.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/azimuthal-equal-area.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/azimuthal-equidistant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/azimuthal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/bounds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/cartesian.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/centroid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/circle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/clip-antimeridian.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/clip-circle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/clip-extent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/clip-polygon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/clip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/compose.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/conic-conformal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/conic-equal-area.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/conic-equidistant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/conic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/distance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/equirectangular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/geo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/gnomonic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/graticule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/greatArc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/interpolate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/length.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/mercator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/orthographic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/path-area.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/path-bounds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/path-buffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/path-centroid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/path-context.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/point-in-polygon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/projection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/resample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/rotation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/spherical.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/stereographic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geo/transverse-mercator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/clip-line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/delaunay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/geom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/hull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/point.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/polygon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/quadtree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/voronoi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/voronoi/beach.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/voronoi/cell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/voronoi/circle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/voronoi/clip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/voronoi/edge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/voronoi/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/geom/voronoi/red-black.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/ease.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/hcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/hsl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/interpolate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/lab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/rgb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/round.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/uninterpolate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/interpolate/zoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/chord.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/cluster.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/force.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/hierarchy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/histogram.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/partition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/layout/treemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/ca-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/de-CH.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/de-DE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/en-CA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/en-GB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/en-US.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/es-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/fi-FI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/fr-CA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/fr-FR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/he-IL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/hu-HU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/it-IT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/ja-JP.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/ko-KR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/locale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/mk-MK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/nl-NL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/number-format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/pl-PL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/ru-RU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/sv-SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/time-format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/time-scale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/locale/zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/math/abs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/math/adder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/math/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/math/number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/math/random.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/math/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/math/trigonometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/bilinear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/category.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/identity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/linear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/nice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/ordinal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/polylinear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/pow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/quantile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/quantize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/scale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/sqrt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/scale/threshold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/append.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/call.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/classed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/datum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/each.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/empty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/enter-insert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/enter-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/enter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/insert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/interrupt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/on.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/property.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/remove.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/selectAll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/size.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/selection/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/start.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/arc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/area-radial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/area.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/axis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/brush.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/chord.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/diagonal-radial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/diagonal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/line-radial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/svg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/svg/symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/day.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/format-iso.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/format-utc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/hour.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/interval.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/minute.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/month.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/scale-utc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/scale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/second.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/week.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/time/year.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/duration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/each.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/ease.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/remove.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/selectAll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/subtransition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/transition/tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/xhr/html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/xhr/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/xhr/json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/xhr/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/xhr/xhr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/d3/src/xhr/xml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/date-extended.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/date-extended.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/test/browserling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/date-extended/test/date-extended.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/declare.js.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/jsLinters/jshint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/libraries/declare_js_node_modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/libraries/sass_stdlib.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/atlassian-ide-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/declare.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/declare.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/projectFilesBackup/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/test/browserling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/declare.js/test/declare.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/jsLinters/jshint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/libraries/Node_js_Dependencies_for_string_extended.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/string-extended.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/examples/browser/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/examples/browser/scripts/declare.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/examples/browser/scripts/extended1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/examples/browser/scripts/extended2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/examples/browser/scripts/extender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/extended.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/extended.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/projectFilesBackup/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/test/browserling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/test/extended.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/test/extenders/extended1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extended/test/extenders/extended2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/extender-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/extender.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/extender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/test/browserling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/test/extender.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/extender/test/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/.gitmodules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/lib/extended.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/lib/formatter/formatter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/lib/formatter/formatter_stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/lib/formatter/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/lib/parser/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/lib/parser/parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/lib/parser/parser_stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/fast-csv/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/atlassian-ide-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/is-extended.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/is-extended.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/test/browserling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/is-extended/test/is-extended.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/lib/readline/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/lib/readline/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/lib/readline/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/lib/readline/readline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/lib/readline/test/fixtures/afile.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/lib/readline/test/fixtures/nmbr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/lib/readline/test/test_readline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/test/county_population.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/test/state_population.tsv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/node-stream-csv/test/type_test.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/object-extended.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/object-extended.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/test/browserling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/object-extended/test/object-extended.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/extended.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/jsLinters/jshint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/atlassian-ide-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/string-extended.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/test/browserling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/string-extended/test/string-extended.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Asse_2/temp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/.idea/Asse_2.iml" afterPath="$PROJECT_DIR$/../Asse_2/.idea/Asse_2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/../Asse_2/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/.idea/libraries/Asse_2_node_modules.xml" afterPath="$PROJECT_DIR$/../Asse_2/.idea/libraries/Asse_2_node_modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Asse_2/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/app.js" afterPath="$PROJECT_DIR$/../Asse_2/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/asset/temp.csv" afterPath="$PROJECT_DIR$/../Asse_2/asset/temp.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/index.js" afterPath="$PROJECT_DIR$/../Asse_2/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/index2.js" afterPath="$PROJECT_DIR$/../Asse_2/index2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/csvtojson.cmd" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/csvtojson.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/har-validator.cmd" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/har-validator.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/sshpk-conv.cmd" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/sshpk-conv.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/sshpk-sign.cmd" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/sshpk-sign.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/sshpk-verify.cmd" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/sshpk-verify.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/uuid.cmd" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/.bin/uuid.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/cryptiles/.npmignore" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/cryptiles/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/cryptiles/.travis.yml" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/cryptiles/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/csvjson/README.md" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/csvjson/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/.npmignore" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/.travis.yml" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/README.md" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/bower.json" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/component.json" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/dist/client.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/dist/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/example/usage.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/example/usage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/browser.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/client.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/crypto.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/crypto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/index.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/server.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/utils.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/browser.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/client.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/crypto.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/crypto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/index.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/readme.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/readme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/server.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/uri.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/uri.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/utils.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/hawk/test/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/jodid25519/LICENSE" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/jodid25519/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/README.md" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-00/hyper-schema" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-00/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-00/json-ref" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-00/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-00/links" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-00/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-00/schema" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-00/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-01/hyper-schema" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-01/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-01/json-ref" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-01/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-01/links" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-01/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-01/schema" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-01/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-02/hyper-schema" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-02/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-02/json-ref" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-02/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-02/links" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-02/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-02/schema" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-02/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/examples/address" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/examples/address" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/examples/calendar" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/examples/calendar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/examples/card" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/examples/card" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/examples/geo" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/examples/geo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/examples/interfaces" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/examples/interfaces" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/hyper-schema" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/json-ref" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/links" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/schema" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-03/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-04/hyper-schema" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-04/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-04/links" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-04/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-04/schema" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-04/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-zyp-json-schema-03.xml" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-zyp-json-schema-03.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-zyp-json-schema-04.xml" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/draft-zyp-json-schema-04.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/lib/links.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/lib/links.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/lib/validate.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/lib/validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/test/tests.js" afterPath="$PROJECT_DIR$/../Asse_2/node_modules/json-schema/test/tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Asse_2/parser.js" afterPath="$PROJECT_DIR$/../Asse_2/parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BootStrap/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BootStrap/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,9 +767,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7076649">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-0.38898757">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#1105#1670#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,8 +869,12 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Asse_2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/D3_1/index.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -191,6 +923,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -207,24 +947,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24832714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -247,7 +987,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1105#1670#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -255,7 +997,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1105#1670#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -263,15 +1007,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1105#1670#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7076649">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1105#1670#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1105#1670#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1105#1670#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1105#1670#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.38898757">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#1105#1670#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">
+			org.hibernate.dialect.OracleDialect
+		</property>
+		<property name="hibernate.connection.driver_class">
+			oracle.jdbc.driver.OracleDriver
+		</property>
+		<property name="hibernate.connection.url">
+			jdbc:oracle:thin:@localhost:1521:orcl
+		</property>
+		<property name="hibernate.connection.username">
+			scott
+		</property>
+		<property name="hibernate.connection.password">
+			wipro123
+		</property>
+		<property name="show_sql">true</property>
+		<property name="hbm2ddl.auto">update</property>
+
+		<!-- List of XML mapping files -->
+		<mapping class="com.wipro.rll.beans.EVS_TBL_User_Profile_Class" />
+		<mapping class="com.wipro.rll.beans.EVS_TBL_party_Class" />
+		<mapping class="com.wipro.rll.beans.EVS_TBL_Credential_Class" />
+		<mapping class="com.wipro.rll.beans.EVS_TBL_Election_CLass" />
+		<mapping class="com.wipro.rll.beans.EVS_TBL_Candidate_Class" />
+		<mapping class="com.wipro.rll.beans.EVS_TBL_Voter_Details_Class" />
+		<mapping class="com.wipro.rll.beans.EVS_TBL_EO_Class" />
+		<mapping class="com.wipro.rll.beans.EVS_TBL_Result_Class" />
+	</session-factory>
+</hibernate-configuration>

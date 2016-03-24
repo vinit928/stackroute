@@ -1,0 +1,352 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-1.12.2.js"
+            integrity="sha256-VUCyr0ZXB5VhBibo2DkTVhdspjmxUgxDGaLQx7qb7xY=" crossorigin="anonymous"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript">
+        $.getJSON("json/India2011.json", function (data) {
+            proJSON(data);
+        });
+
+        function proJSON(json) {
+            var tm = 0;
+            var tf = 0;
+            var ilm = 0;
+            var ilf = 0;
+            var lm = 0;
+            var lf = 0;
+            var Ntm = 0;
+            var Ntf = 0;
+            var Nilm = 0;
+            var Nilf = 0;
+            var Nlm = 0;
+            var Nlf = 0;
+            for (var i in json) {
+                var data = json[i];
+                tm = +tm + +data["Total Males"];
+                tf = +tf + +data["Total Females"];
+                ilm = +ilm + +data["Illiterate - Males"];
+                ilf = +ilf + +data["Illiterate - Females"];
+                lm = +lm + +data["Literate - Males"];
+                lf = +lf + +data["Literate - Females"];
+                if ((data["Area Name"] == "State - ARUNACHAL PRADESH") || (data["Area Name"] == "State - ASSAM") ||
+                        (data["Area Name"] == "State - MANIPUR") || (data["Area Name"] == "State - MEGHALAYA") ||
+                        (data["Area Name"] == "State - MIZORAM") || (data["Area Name"] == "State - NAGALAND") ||
+                        (data["Area Name"] == "State - TRIPURA")) {
+                    Ntm = +Ntm + +data["Total Males"];
+                    Ntf = +Ntf + +data["Total Females"];
+                    Nilm = +Nilm + +data["Illiterate - Males"];
+                    Nilf = +Nilf + +data["Illiterate - Females"];
+                    Nlm = +Nlm + +data["Literate - Males"];
+                    Nlf = +Nlf + +data["Literate - Females"];
+                }
+            }
+
+            D3tp(tm, tf);
+            D3ilp(ilm, ilf);
+            D3lp(lm, lf);
+            D3Ntp(Ntm, Ntf);
+            D3Nilp(Nilm, Nilf);
+            D3Nlp(Nlm, Nlf);
+        }
+    </script>
+    <title></title>
+</head>
+<body>
+<script>
+    function D3tp(tm, tf) {
+        var data = [tm, tf];
+        var r = 70;
+        var color = d3.scale.ordinal().range(["red", "blue"]);
+        var canvas = d3.select("body").append("svg")
+                .attr("width", 290)
+                .attr("height", 250);
+        var group = canvas.append("g")
+                .attr("transform", "translate(100,100)");
+        var arc = d3.svg.arc()
+                .outerRadius(r);
+        var pie = d3.layout.pie()
+                .value(function (d) {
+                    return d;
+                });
+        var arcs = group.selectAll(".arc")
+                .data(pie(data))
+                .enter()
+                .append("g")
+                .attr("class", "arc");
+        arcs.append("path")
+                .attr("d", arc)
+                .attr("fill", function (d) {
+                    return color(d.data);
+                });
+        var rect1 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 200)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "blue");
+        var text = canvas.append('text').text('Total Female ('+tf.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 215)
+                .attr('fill', 'black')
+        var rect2 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 230)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "red");
+        var text2 = canvas.append('text').text('Total Male ('+tm.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 244)
+                .attr('fill', 'black')
+    }
+</script>
+<script>
+    function D3ilp(ilm, ilf) {
+        var data = [ilm, ilf];
+        var r = 70;
+        var color = d3.scale.ordinal().range(["blue", "red"]);
+        var canvas = d3.select("body").append("svg")
+                .attr("width", 290)
+                .attr("height", 250);
+        var group = canvas.append("g")
+                .attr("transform", "translate(100,100)");
+        var arc = d3.svg.arc()
+                .outerRadius(r);
+        var pie = d3.layout.pie()
+                .value(function (d) {
+                    return d;
+                });
+        var arcs = group.selectAll(".arc")
+                .data(pie(data))
+                .enter()
+                .append("g")
+                .attr("class", "arc");
+        arcs.append("path")
+                .attr("d", arc)
+                .attr("fill", function (d) {
+                    return color(d.data);
+                });
+        var rect1 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 200)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "Blue");
+        var text = canvas.append('text').text('Illiterate Females ('+ilf.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 215)
+                .attr('fill', 'black')
+        var rect2 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 230)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "red");
+        var text2 = canvas.append('text').text('Illiterate Males ('+ilm.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 244)
+                .attr('fill', 'black')
+    }
+
+</script>
+<script>
+    function D3lp(lm, lf) {
+        var data = [lm, lf];
+        var r = 70;
+        var color = d3.scale.ordinal().range(["red", "blue"]);
+        var canvas = d3.select("body").append("svg")
+                .attr("width", 750)
+                .attr("height", 250);
+        var group = canvas.append("g")
+                .attr("transform", "translate(100,100)");
+        var arc = d3.svg.arc()
+                .outerRadius(r);
+        var pie = d3.layout.pie()
+                .value(function (d) {
+                    return d;
+                });
+        var arcs = group.selectAll(".arc")
+                .data(pie(data))
+                .enter()
+                .append("g")
+                .attr("class", "arc");
+        arcs.append("path")
+                .attr("d", arc)
+                .attr("fill", function (d) {
+                    return color(d.data);
+                });
+        var rect1 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 200)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "blue");
+        var text = canvas.append('text').text('literate Females ('+lf.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 215)
+                .attr('fill', 'black');
+
+        var rect2 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 230)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "red");
+        var text2 = canvas.append('text').text('literate Males ('+lm.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 244)
+                .attr('fill', 'black');
+    }
+
+</script>
+<script>
+    function D3Ntp(tm, tf) {
+        var data = [tm, tf];
+        var r = 70;
+        var color = d3.scale.ordinal().range(["blue", "red"]);
+        var canvas = d3.select("body").append("svg")
+                .attr("width", 290)
+                .attr("height", 250);
+        var group = canvas.append("g")
+                .attr("transform", "translate(100,100)");
+        var arc = d3.svg.arc()
+                .outerRadius(r);
+        var pie = d3.layout.pie()
+                .value(function (d) {
+                    return d;
+                });
+        var arcs = group.selectAll(".arc")
+                .data(pie(data))
+                .enter()
+                .append("g")
+                .attr("class", "arc");
+        arcs.append("path")
+                .attr("d", arc)
+                .attr("fill", function (d) {
+                    return color(d.data);
+                });
+        var rect1 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 200)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "blue");
+        var text = canvas.append('text').text('Total Female ('+tf.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 215)
+                .attr('fill', 'black')
+        var rect2 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 230)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "red");
+        var text2 = canvas.append('text').text('Total Male ('+tm.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 244)
+                .attr('fill', 'black')
+    }
+</script>
+<script>
+    function D3Nilp(ilm, ilf) {
+        var data = [ilm, ilf];
+        var r = 70;
+        var color = d3.scale.ordinal().range(["red", "blue"]);
+        var canvas = d3.select("body").append("svg")
+                .attr("width", 290)
+                .attr("height", 250);
+        var group = canvas.append("g")
+                .attr("transform", "translate(100,100)");
+        var arc = d3.svg.arc()
+                .outerRadius(r);
+        var pie = d3.layout.pie()
+                .value(function (d) {
+                    return d;
+                });
+        var arcs = group.selectAll(".arc")
+                .data(pie(data))
+                .enter()
+                .append("g")
+                .attr("class", "arc");
+        arcs.append("path")
+                .attr("d", arc)
+                .attr("fill", function (d) {
+                    return color(d.data);
+                });
+        var rect1 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 200)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "Blue");
+        var text = canvas.append('text').text('Illiterate Females ('+ilf.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 215)
+                .attr('fill', 'black')
+        var rect2 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 230)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "red");
+        var text2 = canvas.append('text').text('Illiterate Males ('+ilm.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 244)
+                .attr('fill', 'black')
+    }
+
+</script>
+<script>
+    function D3Nlp(lm, lf) {
+        var data = [lm, lf];
+        var r = 70;
+        var color = d3.scale.ordinal().range(["red", "blue"]);
+        var canvas = d3.select("body").append("svg")
+                .attr("width", 750)
+                .attr("height", 250);
+        var group = canvas.append("g")
+                .attr("transform", "translate(100,100)");
+        var arc = d3.svg.arc()
+                .outerRadius(r);
+        var pie = d3.layout.pie()
+                .value(function (d) {
+                    return d;
+                });
+        var arcs = group.selectAll(".arc")
+                .data(pie(data))
+                .enter()
+                .append("g")
+                .attr("class", "arc");
+        arcs.append("path")
+                .attr("d", arc)
+                .attr("fill", function (d) {
+                    return color(d.data);
+                });
+        var rect1 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 200)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "blue");
+        var text = canvas.append('text').text('literate Females ('+lf.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 215)
+                .attr('fill', 'black');
+
+        var rect2 = canvas.append("rect")
+                .attr("x", 40)
+                .attr("y", 230)
+                .attr("width", 20)
+                .attr("height", 20)
+                .attr("fill", "red");
+        var text2 = canvas.append('text').text('literate Males ('+lm.toLocaleString()+')')
+                .attr('x', 80)
+                .attr('y', 244)
+                .attr('fill', 'black');
+    }
+
+</script>
+</body>
+</html>
